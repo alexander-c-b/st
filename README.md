@@ -1,3 +1,5 @@
+*This README is duplicated from [LukeSmithxyz/st](https://github.com/LukeSmithxyz/st).*
+
 # Luke's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
