@@ -16,9 +16,7 @@ in with pkgs; stdenv.mkDerivation {
   nativeBuildInputs = [ pkgconfig ];
   buildInputs = [ xorg.libX11 xorg.libXft xorg.libXext fontconfig harfbuzz ];
 
-  installPhase = ''
-    make install PREFIX=$out
-  '';
+  makeFlags = [ "PREFIX=$(out)" ];
 
   meta = {
     homepage = "https://github.com/alexander-c-b/st";
